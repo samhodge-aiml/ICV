@@ -1,6 +1,6 @@
 from .paradetox import ParaDetoxProbInferenceForStyle
 #from .shakespeare import ShakespeareProbInferenceForStyle
-from .formality import FormalityProbInferenceForStyle
+#from .formality import FormalityProbInferenceForStyle
 from .sentiment import SentimentProbInferenceForStyle
 from .format import FormatProbInferenceForStyle
 from .emotive import EmotiveProbInferenceForStyle
@@ -10,7 +10,7 @@ from .demo import DemoProbInferenceForStyle
 task_mapper = {
     "paradetox": ParaDetoxProbInferenceForStyle,
     #"shakespeare": ShakespeareProbInferenceForStyle,
-    "formality": FormalityProbInferenceForStyle,
+    #"formality": FormalityProbInferenceForStyle,
     "sentiment": SentimentProbInferenceForStyle,
     "format": FormatProbInferenceForStyle,
     "emotive": EmotiveProbInferenceForStyle,
